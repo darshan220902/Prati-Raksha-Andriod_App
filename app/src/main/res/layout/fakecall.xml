@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SmsActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="@drawable/adbgd">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/lay"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:text="Make a\nFake CALL"
+            android:textColor="@color/purple_700"
+            android:textAlignment="center"
+            android:textSize="35sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/lay"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:text="Start Fake call"
+            android:textSize="15sp"
+            android:background="@drawable/oval_purple_full"
+            android:id="@+id/startServiceoffakecall"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:text="Stop Fake call"
+            android:textSize="15sp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/oval_purple_full"
+            android:id="@+id/stopServiceoffakecall"/>
+    </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

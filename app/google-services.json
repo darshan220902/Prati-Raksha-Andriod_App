@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "701742715125",
+    "project_id": "pratiraksha-5ae08",
+    "storage_bucket": "pratiraksha-5ae08.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701742715125:android:6c3c6057a017b54c20f5bc",
+        "android_client_info": {
+          "package_name": "com.darkness.sparkwomen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqOxN2I4DnUiYJIN3GURf7gm1OWxot-qo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
